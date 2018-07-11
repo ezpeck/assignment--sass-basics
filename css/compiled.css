@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.login__container, .login__footer2 {
+  font-family: 'Roboto', sans-serif;
+  color: #999;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 30px 40px 40px 40px;
+  width: 270px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap; }
+
+.login__logocontainer, .login__button, .login__form, .login__footer, .login__footer2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
+
+.login__logo {
+  width: 175px;
+  height: 51px; }
+
+.login__fblibutton {
+  width: 100%;
+  border: 0;
+  border-radius: 3px;
+  background: #3897f0;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px; }
+
+.login__lineor {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.login__line {
+  background: #EFEFEF;
+  width: 30%;
+  height: 3px;
+  margin: 0 5px; }
+
+.login__or {
+  padding: 0;
+  margin: 0; }
+
+.login__input {
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #E6E6E6;
+  background: #FAFAFA;
+  height: 36px; }
+
+.login__subutton {
+  width: 100%;
+  border: 0;
+  border-radius: 3px;
+  background: #3897f0;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px; }
+
+.login__txt {
+  text-align: center; }
+
+.login__span1 {
+  font-weight: bold; }
+
+.login__footer2 {
+  margin-top: 10px;
+  height: 70px; }
+
+.login__span2 {
+  color: black; }
+
+.login__span3 {
+  color: #3897f0; }
